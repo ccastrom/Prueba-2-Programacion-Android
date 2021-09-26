@@ -121,6 +121,7 @@
                     android:layout_width="177dp"
                     android:layout_height="53dp"
                     android:layout_marginTop="44dp"
+                    android:onClick="costoTotal"
                     android:text="CALCULAR"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
