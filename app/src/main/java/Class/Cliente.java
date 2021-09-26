@@ -2,7 +2,7 @@ package Class;
 
 public class Cliente {
     private String[] nombre={"Jacinta","Sermieh"};
-    private int salario;
+    private int[] salario={45000,55000};
 
     public Cliente() {
     }
@@ -15,11 +15,11 @@ public class Cliente {
         this.nombre = nombre;
     }
 
-    public int getSalario() {
+    public int[] getSalario() {
         return salario;
     }
 
-    public void setSalario(int salario) {
+    public void setSalario(int[] salario) {
         this.salario = salario;
     }
 }

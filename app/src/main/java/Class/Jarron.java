@@ -2,8 +2,8 @@ package Class;
 
 public class Jarron {
     private String[] material={"Cerámica","Porcelana","Vidrio"};
-    private int precio;
-    private int costoAdicional;
+    private int[] precio={4500,12500,25000};
+    private int[] costoAdicional={150,350,500};
 
     public Jarron() {
     }
@@ -16,19 +16,19 @@ public class Jarron {
         this.material = material;
     }
 
-    public int getPrecio() {
+    public int[] getPrecio() {
         return precio;
     }
 
-    public void setPrecio(int precio) {
+    public void setPrecio(int[] precio) {
         this.precio = precio;
     }
 
-    public int getCostoAdicional() {
+    public int[] getCostoAdicional() {
         return costoAdicional;
     }
 
-    public void setCostoAdicional(int costoAdicional) {
+    public void setCostoAdicional(int[] costoAdicional) {
         this.costoAdicional = costoAdicional;
     }
 

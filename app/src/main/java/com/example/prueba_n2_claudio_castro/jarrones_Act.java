@@ -42,26 +42,20 @@ public class jarrones_Act extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
 
-                if(spMaterial.getSelectedItem().toString().equals("Cerámica")) {
-                    jar.setPrecio(4500);
-                    jar.setCostoAdicional(150);
-                    costoAdicional.setText("El costo adicional es: "+jar.getCostoAdicional());
-                    resultado=jar.calcularCosto(jar.getPrecio(),jar.getCostoAdicional());
+                if(spMaterial.getSelectedItem().toString().equals(jar.getMaterial()[0])) {
+                    costoAdicional.setText("El costo adicional es: "+jar.getCostoAdicional()[0]);
+                    resultado=jar.calcularCosto(jar.getPrecio()[0],jar.getCostoAdicional()[0]);
                     ratingManoDeObra.setRating(2);
 
                 }
-                if(spMaterial.getSelectedItem().toString().equals("Porcelana")) {
-                    jar.setPrecio(12500);
-                    jar.setCostoAdicional(350);
-                    costoAdicional.setText("El costo adicional es: "+jar.getCostoAdicional());
-                    resultado= jar.calcularCosto(jar.getPrecio(),jar.getCostoAdicional());
+                if(spMaterial.getSelectedItem().toString().equals(jar.getMaterial()[1])) {
+                    costoAdicional.setText("El costo adicional es: "+jar.getCostoAdicional()[1]);
+                    resultado= jar.calcularCosto(jar.getPrecio()[1],jar.getCostoAdicional()[1]);
                     ratingManoDeObra.setRating(3);
                 }
-                if(spMaterial.getSelectedItem().toString().equals("Vidrio")) {
-                    jar.setPrecio(25000);
-                    jar.setCostoAdicional(500);
-                    costoAdicional.setText("El costo adicional es: "+jar.getCostoAdicional());
-                    resultado=jar.calcularCosto(jar.getPrecio(),jar.getCostoAdicional());
+                if(spMaterial.getSelectedItem().toString().equals(jar.getMaterial()[2])) {
+                    costoAdicional.setText("El costo adicional es: "+jar.getCostoAdicional()[2]);
+                    resultado=jar.calcularCosto(jar.getPrecio()[2],jar.getCostoAdicional()[2]);
                     ratingManoDeObra.setRating(5);
                 }
 

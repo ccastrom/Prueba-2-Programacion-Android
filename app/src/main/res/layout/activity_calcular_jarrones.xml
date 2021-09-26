@@ -5,13 +5,4 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_gradient"
-    tools:context=".CalcularJarrones_act">
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="218dp"
-        android:layout_height="97dp"
-        android:text="CALCULAR JARRONES"
-        tools:layout_editor_absoluteX="94dp"
-        tools:layout_editor_absoluteY="147dp" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+    tools:context=".CalcularJarrones_act"/>
