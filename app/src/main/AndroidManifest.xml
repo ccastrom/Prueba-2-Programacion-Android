@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Prueba_N2_Claudio_Castro">
         <activity
+            android:name=".jarrones_Act"
+            android:exported="true" />
+        <activity
+            android:name=".CalcularJarrones_act"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
