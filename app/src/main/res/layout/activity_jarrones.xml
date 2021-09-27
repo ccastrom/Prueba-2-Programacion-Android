@@ -111,21 +111,34 @@
                     android:id="@+id/manoDeObraRating"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="48dp"
+                    android:layout_marginTop="16dp"
                     app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.565"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/txtCostoFinal" />
+                    app:layout_constraintTop_toBottomOf="@+id/txtSueldoRestante" />
 
                 <Button
                     android:id="@+id/btnCalcular"
                     android:layout_width="177dp"
                     android:layout_height="53dp"
-                    android:layout_marginTop="44dp"
+                    android:layout_marginTop="52dp"
                     android:onClick="costoTotal"
                     android:text="CALCULAR"
                     app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.522"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/manoDeObraRating" />
+
+                <TextView
+                    android:id="@+id/txtSueldoRestante"
+                    android:layout_width="229dp"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="12dp"
+                    android:text="El sueldo final es:"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.504"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtCostoFinal" />
             </androidx.constraintlayout.widget.ConstraintLayout>
         </androidx.cardview.widget.CardView>
     </androidx.constraintlayout.widget.ConstraintLayout>

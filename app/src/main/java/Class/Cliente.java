@@ -1,7 +1,7 @@
 package Class;
 
 public class Cliente {
-    private String[] nombre={"Jacinta","Sermieh"};
+    private String[] nombre={"Sermieh","Jacinta"};
     private int[] salario={45000,55000};
 
     public Cliente() {
@@ -21,5 +21,9 @@ public class Cliente {
 
     public void setSalario(int[] salario) {
         this.salario = salario;
+    }
+    public int descontarSalario(int salario,int costoDeProducto){
+        int resultado=salario-costoDeProducto;
+        return resultado;
     }
 }
