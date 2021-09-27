@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
        }
        if(usuario.equals("Claudio") && pass.equals("123")){
            System.out.println("Credenciales correctas");
-           Intent i = new Intent(this,CalcularJarrones_act.class);
+           Intent i = new Intent(this,jarrones_Act.class);
            startActivity(i);
 
        }else{
@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void jarronesAct(View view){
-        Intent i = new Intent(this,jarrones_Act.class);
+        Intent i = new Intent(this,CalcularJarrones_act.class);
         startActivity(i);
 
     }

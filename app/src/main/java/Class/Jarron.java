@@ -36,5 +36,9 @@ public class Jarron {
         int resultado=precio+costo;
         return resultado;
     }
+    public int calcularCostoUnidades(int cantidad, int precio){
+        int resultado=cantidad*precio;
+        return resultado;
+    }
 }
 
